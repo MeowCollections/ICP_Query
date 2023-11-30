@@ -55,22 +55,6 @@ class beian():
         self.blackqueryByCondition = 'https://hlwicpfwc.miit.gov.cn/icpproject_query/api/blackListDomain/queryByCondition'
         # 违法违规APP,小程序,快应用
         self.blackappAndMiniByCondition = 'https://hlwicpfwc.miit.gov.cn/icpproject_query/api/blackListDomain/queryByCondition_appAndMini'
-        # small图片的索引，目前只遇到过四个
-        self.small_selice_four_index = [
-                [
-                    {'x':163,'y':9},
-                    {'x':193,'y':41}
-                ],[
-                    {'x':198,'y':9},
-                    {'x':225,'y':41}
-                ],[
-                    {'x':230,'y':9},
-                    {'x':259,'y':41}
-                ],[
-                    {'x':263,'y':9},
-                    {'x':294,'y':41}
-                ]
-            ]
 
     async def _init_session(self):
         self.session = aiohttp.ClientSession()
@@ -173,13 +157,12 @@ class beian():
             if len(self.ibigx) == self.wordCount:
                 cv2.destroyAllWindows()
 
-    # 对small图片进行切片，获取要识别的文字，返回切片后的图像数组
     # 在这里，不管你是自己实现验证码点选，或者对接打码平台也好
     # 最终的return必须是四个需要点选的汉字的坐标
     # 像这样[{"x":289,"y":155},{"x":39,"y":133},{"x":137,"y":23},{"x":193,"y":79}]
     async def small_selice(self,small_image,big_image):
         # 小验证码彩图
-        isma = cv2.imdecode(np.frombuffer(base64.b64decode(small_image),np.uint8), cv2.IMREAD_GRAYSCALE)
+        isma = cv2.imdecode(np.frombuffer(base64.b64decode(small_image),np.uint8), cv2.COLOR_GRAY2RGB)
 
 
         # 去根据保存的isma.jpg去依次点击验证码
