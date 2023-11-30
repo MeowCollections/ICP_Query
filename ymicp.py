@@ -172,6 +172,7 @@ class beian():
         ibig = cv2.imdecode(np.frombuffer(base64.b64decode(big_image),np.uint8), cv2.COLOR_GRAY2RGB)
         print("\n\t请根据 isma.jpg 依次点击窗口中的汉字\n")
         self.ibigx = []
+        cv2.imshow('isma.jpg',isma)
         cv2.imshow('Click the characters one by one according to isma.jpg', ibig)
         # 设置鼠标回调函数
         cv2.setMouseCallback('Click the characters one by one according to isma.jpg', self.mouse_callback)
