@@ -1,13 +1,17 @@
 # ICP_Query 2023/12/9 可用
 
-#### 1.（自动打码）20231209版本，增加了一个自己训练的效果不怎么样的检测模型（为了轻便，采用移动端配置训练的模型，并且只准备了少量数据集进行训练），基本上可以进行自动打码
-1. 下载2023-12-9_auto_icp-Api.zip，整包大小12.9MB
-2. 解压文件，切换到icp_Api
-3. 安装依赖：pip install -r requirements.txt
-4. 运行Api：python icpApi.py
-5. 实测在该配置 Linux Centos7.2  1(cpu)  1G(RAM) 上至少可以同时运行3个进程(不同端口)
+####（自动打码）20231209版本，增加了一个自己训练的效果不怎么样的检测模型（为了轻便，采用移动端配置训练的模型，并且只准备了少量数据集进行训练），基本上可以进行自动打码
+1. docker部署
+   1. docker pull yiminger/ymicp:latest
+   2. docker run -it -d -p 0.0.0.0:16181:16181 yiminger/ymicp:latest
+2. 手动部署
+   1. 下载2023-12-9_auto_icp-Api.zip，整包大小12.9MB
+   2. 解压文件，切换到icp_Api
+   3. 安装依赖：pip install -r requirements.txt
+   4. 运行Api：python icpApi.py
+   5. 实测在该配置 Linux Centos7.2  1(cpu)  1G(RAM) 上至少可以同时运行3个进程(不同端口)
 
-#### 2.（手动打码）20231130修复版本，只提供手动点选验证码，可接入其他打码平台或自行实现，按照small_selice方法返回对应参数即可
+####（手动打码）20231130修复版本，只提供手动点选验证码，可接入其他打码平台或自行实现，按照small_selice方法返回对应参数即可
 1. 下载icpApi.py和ymicp.py
 2. 安装requirements.txt中的依赖即可
 
