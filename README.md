@@ -8,7 +8,7 @@
    # 运行并转发容器16181端口到本地所有地址
    docker run -it -d -p 0.0.0.0:16181:16181 yiminger/ymicp:latest
    ```
-3. 手动部署
+2. 手动部署
    ```
    # 先自行安装Python3.7+
    # 下载环境
@@ -22,6 +22,8 @@
    
    # 实测在该配置 Linux Centos7.2  1(cpu)  1G(RAM) 上至少可以同时运行3个进程(不同端口)
    ```
+3. 在线体验接口
+   [ICP备案查询接口](http://api.wer.plus/inteface?id=6)
 
 #### （手动打码）20231130修复版本，只提供手动点选验证码，可接入其他打码平台或自行实现，按照small_selice方法返回对应参数即可
 1. 下载icpApi.py和ymicp.py
