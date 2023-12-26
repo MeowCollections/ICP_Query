@@ -23,7 +23,7 @@
    # 实测在该配置 Linux Centos7.2  1(cpu)  1G(RAM) 上至少可以同时运行3个进程(不同端口)
    ```
 3. 在线体验接口
-   [ICP备案查询接口](http://api.wer.plus/inteface?id=6)
+   [ICP备案查询](https://hg-ha.github.io/icpb/)
 
 #### （手动打码）20231130修复版本，只提供手动点选验证码，可接入其他打码平台或自行实现，按照small_selice方法返回对应参数即可
 1. 下载icpApi.py和ymicp.py
