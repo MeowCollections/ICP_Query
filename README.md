@@ -58,7 +58,7 @@
       ```
    8. 启动
       ```
-      python3 icp_Api.py
+      python3 icpApi.py
       ```
 4. 在线体验接口
    [ICP备案查询](https://hg-ha.github.io/icpb/)
