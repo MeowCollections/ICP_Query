@@ -47,7 +47,7 @@
       wget https://mirrors.huaweicloud.com/python/3.8.18/Python-3.8.18.tgz
       tar zxfv Python-3.8.18.tgz
       cd Python-3.8.18
-      ./configre && make && make install
+      ./configure && make && make install
       ```
    7. 下载部署源码包
       ```
