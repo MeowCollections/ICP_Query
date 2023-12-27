@@ -39,6 +39,7 @@
       ```
    5. 安装系统环境依赖
       ```
+      apt update
       apt-get install wget zlib1g-dev libbz2-dev libssl-dev libncurses5-dev libsqlite3-dev libreadline-dev tk-dev libgdbm-dev libdb-dev libpcap-dev xz-utils libexpat1-dev liblzma-dev libffi-dev libc6-dev build-essential libgl1 libglib2.0-dev -y
       ```
    6. 编译安装python
