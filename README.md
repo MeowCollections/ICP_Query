@@ -54,11 +54,11 @@
       wget https://github.com/HG-ha/ICP_Query/raw/main/2023-12-9_auto_icp-Api.zip
       unzip 2023-12-9_auto_icp-Api.zip
       cd icp_Api
-      pip install -r requirements.txt -i https://mirror.baidu.com/pypi/simple
+      pip3 install -r requirements.txt -i https://mirror.baidu.com/pypi/simple
       ```
    8. 启动
       ```
-      python icp_Api.py
+      python3 icp_Api.py
       ```
 4. 在线体验接口
    [ICP备案查询](https://hg-ha.github.io/icpb/)
