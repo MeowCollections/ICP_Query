@@ -22,7 +22,44 @@
    
    # 实测在该配置 Linux Centos7.2  1(cpu)  1G(RAM) 上至少可以同时运行3个进程(不同端口)
    ```
-3. 在线体验接口
+3. 在Android手机上部署（非docker）,测试机型为meizu 16S Pro，性能发挥正常
+   1. [下载Termux](https://github.com/termux/termux-app/releases)，本人测试使用版本为0.118
+   2. 更新环境，更新比较慢的可以去搜索如何替换国内源
+      ```
+      pkg update && pkg upgrade -y
+      ```
+   3. 安装proot-distro
+      ```
+      pkg install proot-distro -y
+      ```
+   4. 安装并登录ubuntu
+      ```
+      proot-distro install ubuntu
+      proot-distro login ubuntu
+      ```
+   5. 安装系统环境依赖
+      ```
+      apt-get install wget zlib1g-dev libbz2-dev libssl-dev libncurses5-dev libsqlite3-dev libreadline-dev tk-dev libgdbm-dev libdb-dev libpcap-dev xz-utils libexpat1-dev liblzma-dev libffi-dev libc6-dev build-essential libgl1 libglib2.0-dev -y
+      ```
+   6. 编译安装python
+      ```
+      wget https://mirrors.huaweicloud.com/python/3.8.18/Python-3.8.18.tgz
+      tar zxfv Python-3.8.18.tgz
+      cd Python-3.8.18
+      ./configre && make && make install
+      ```
+   7. 下载部署源码包
+      ```
+      wget https://github.com/HG-ha/ICP_Query/raw/main/2023-12-9_auto_icp-Api.zip
+      unzip 2023-12-9_auto_icp-Api.zip
+      cd icp_Api
+      pip install -r requirements.txt -i https://mirror.baidu.com/pypi/simple
+      ```
+   8. 启动
+      ```
+      python icp_Api.py
+      ```
+4. 在线体验接口
    [ICP备案查询](https://hg-ha.github.io/icpb/)
 
 #### （手动打码）20231130修复版本，只提供手动点选验证码，可接入其他打码平台或自行实现，按照small_selice方法返回对应参数即可
