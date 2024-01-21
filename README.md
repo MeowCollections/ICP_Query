@@ -10,6 +10,12 @@
 5. 健壮的代码以及内部错误处理机制，确保所有响应都是可解析的
 6. 内置解决前端跨域问题
 
+### 700张验证码+标注未识别数据
+#### 推荐使用yolo或paddle+yolo，参考[issue#2](https://github.com/HG-ha/ICP_Query/issues/2#issuecomment-1887591463)，是个不错的实现
+```
+链接：https://pan.baidu.com/s/1fbAxsP4oLbqSuzTU3E9QdQ?pwd=npuh 
+提取码：npuh 
+```
 ### 部署
 #### （自动打码）20231209版本，增加了一个自己训练的效果不怎么样的检测模型（为了轻便，采用移动端配置训练的模型，并且只准备了少量数据集进行训练），基本上可以进行自动打码
 1. docker部署（确保磁盘预留有3G空间）
