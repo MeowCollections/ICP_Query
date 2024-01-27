@@ -16,6 +16,11 @@
 链接：https://pan.baidu.com/s/1fbAxsP4oLbqSuzTU3E9QdQ?pwd=npuh 
 提取码：npuh 
 ```
+#### 自行训练模型或接入其他打码方式
+1. 下载icpApi.py，ymicp.py
+2. 修改ymicp.py中的small_selice方法（163行）
+
+
 ### 部署
 #### （自动打码）20231209版本，增加了一个自己训练的效果不怎么样的检测模型（为了轻便，采用移动端配置训练的模型，并且只准备了少量数据集进行训练），基本上可以进行自动打码
 1. docker部署（确保磁盘预留有3G空间）
