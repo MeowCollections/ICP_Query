@@ -222,8 +222,10 @@ asyncio.run(main("微信"))
 | <img src="https://github.com/HG-ha/qinglong/blob/main/zfb.jpg?raw=true" title="" alt="zfb" width="120px" height="120px"> | <img title="" src="https://github.com/HG-ha/qinglong/blob/main/wx.png?raw=true" alt="wx" width="120px" height="120px"> | 一铭API：1029212047 |
 |                                                                                       |                                                                                       | 镜芯科技：376957298   |
 
-
-
 ### 其他项目
 
 [一铭API](https://api.wer.plus)
+
+
+### Star
+<img src="https://starchart.cc/hg-ha/ICP_Query.svg">
