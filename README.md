@@ -27,7 +27,7 @@
    ```
    # 先自行安装Python3.7+
    # 下载环境
-   https://wwf.lanzn.com/i1QM11oxe84f
+   [https://wwf.lanzn.com/i1QM11oxe84f](https://wwf.lanzn.com/ifdzp1oxfg4j)
    # 解压
    unzip icpApi_20240221_yolo8.zip && cd icpApi_20240221_yolo8
    # 安装依赖
