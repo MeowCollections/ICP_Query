@@ -23,7 +23,14 @@
 
 ### 部署
 #### 1. 自动打码，20240221版本（yolo8+孪生神经网络），性能提升，支持替换模型，相似度检测数据集是手动生成的，存在误差
-1. 手动部署
+1. docker部署（确保磁盘预留有3G空间）
+   ``` shell
+   # 拉取镜像
+   docker pull yiminger/ymicp:yolo8_latest
+   # 运行并转发容器16181端口到本地所有地址
+   docker run -it -d -p 0.0.0.0:16181:16181 yiminger/ymicp:yolo8_latest
+   ```
+2. 手动部署
    ```
    # 先自行安装Python3.7+
    # 下载环境
