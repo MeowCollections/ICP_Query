@@ -27,11 +27,13 @@
    ```
    # 先自行安装Python3.7+
    # 下载环境
-   https://wwf.lanzn.com/ifdzp1oxfg4j
+   https://wwf.lanzn.com/iMraa1p1p9wj
    # 解压
    unzip icpApi_20240221_yolo8.zip && cd icpApi_20240221_yolo8
    # 安装依赖
    pip install -r requirements.txt -i https://mirror.baidu.com/pypi/simple
+   # 安装torch-cpu
+   pip install torch --index-url https://download.pytorch.org/whl/cpu
    # 运行
    python icpApi.py
    ```
