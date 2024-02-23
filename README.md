@@ -1,6 +1,6 @@
 # ICP_Query
 
-#### 在线测试 [ICP备案查询](https://hg-ha.github.io/app/icpb/)
+#### 在线测试 [ICP备案查询 yolo8](https://hg-ha.github.io/app/icpb/)
 #### 用于生产环境可以去对接专业打码平台，或者参照代码提示修改ymicp.py，按照small_selice方法返回对应参数即可，自带的打码能力仅供测试
 ### 关于本项目
 1. ICP备案查询，基于Python3.8，全异步构建的高性能ICP查询模块，支持分页查询
