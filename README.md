@@ -16,7 +16,7 @@
 链接：https://pan.baidu.com/s/1fbAxsP4oLbqSuzTU3E9QdQ?pwd=npuh 
 提取码：npuh 
 ```
-#### 自行训练模型或接入其他打码方式
+#### 接入其他打码方式
 1. 下载icpApi.py，ymicp.py
 2. 修改ymicp.py中的small_selice方法（163行）
 
