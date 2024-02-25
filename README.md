@@ -25,7 +25,7 @@
    # 下载环境
    https://wwf.lanzn.com/iddrE1pc370j
    # 解压
-   unzip icpApi_20240221_yolo8.zip && cd icpApi_20240221_yolo8
+   unzip icpApi_20240225_yolo8.zip && cd icpApi_20240225_yolo8
    # 安装torch-cpu
    pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu
    # 安装依赖
