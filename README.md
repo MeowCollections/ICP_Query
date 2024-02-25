@@ -10,17 +10,6 @@
 5. 健壮的代码以及内部错误处理机制，确保所有响应都是可解析的
 6. 内置解决前端跨域问题
 
-### 700张验证码+标注未识别数据
-#### 推荐使用yolo或paddle+yolo，参考[issue#2](https://github.com/HG-ha/ICP_Query/issues/2#issuecomment-1887591463)，是个不错的实现
-```
-链接：https://pan.baidu.com/s/1fbAxsP4oLbqSuzTU3E9QdQ?pwd=npuh 
-提取码：npuh 
-```
-#### 接入其他打码方式
-1. 下载icpApi.py，ymicp.py
-2. 修改ymicp.py中的small_selice方法（163行）
-
-
 ### 部署
 #### 1. 自动打码，20240225版本（yolo8+孪生神经网络），性能提升，支持替换模型，相似度检测数据集是手动生成的，存在误差。欢迎贡献更好的模型，或者提供更真实、全面的数据集来优化模型。
 1. docker部署（确保磁盘预留有3G空间）
