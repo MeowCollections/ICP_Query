@@ -23,7 +23,7 @@
    # 拉取镜像
    docker pull yiminger/ymicp:yolo8_latest
    # 运行并转发容器16181端口到本地所有地址
-   docker run -d -p 0.0.0.0:16181:16181 yiminger/ymicp:yolo8_latest
+   docker run -d -p 16181:16181 yiminger/ymicp:yolo8_latest
    ```
 2. 手动部署
    ```
@@ -45,7 +45,7 @@
    # 拉取镜像
    docker pull yiminger/ymicp:latest
    # 运行并转发容器16181端口到本地所有地址
-   docker run -d -p 0.0.0.0:16181:16181 yiminger/ymicp:latest
+   docker run -d -p 16181:16181 yiminger/ymicp:latest
    ```
 2. 手动部署
    ```
