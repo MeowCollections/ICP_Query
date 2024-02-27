@@ -22,7 +22,7 @@
    ```
 2. 手动部署
    ```
-   # 先自行安装Python3.7+
+   # 先自行安装Python3.8+
    # 下载环境
    https://wwf.lanzn.com/iddrE1pc370j
    # 解压
@@ -44,7 +44,7 @@
    ```
 2. 手动部署
    ```
-   # 先自行安装Python3.7+
+   # 先自行安装Python3.8+
    # 下载环境
    wget https://github.com/HG-ha/ICP_Query/raw/main/2023-12-9_auto_icp-Api.zip
    # 解压
