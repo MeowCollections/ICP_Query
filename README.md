@@ -34,6 +34,11 @@
    # 运行
    python icpApi.py
    ```
+3. 手动部署（windows + conda）
+   ```
+   conda env create -f environment.yml
+   
+   ```
 #### 2. 自动打码，20231209版本（paddle），基本上可以进行自动打码，支持替换模型
 1. docker部署（确保磁盘预留有3G空间）
    ``` shell
