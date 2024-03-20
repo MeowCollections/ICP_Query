@@ -36,8 +36,10 @@
    ```
 3. 手动部署（windows + conda）
    ```
+   # 下载environment.yml
+   # 先修改文件中的prefix为要保存的路径
+   # 从yml创建环境
    conda env create -f environment.yml
-   
    ```
 #### 2. 自动打码，20231209版本（paddle），基本上可以进行自动打码，支持替换模型
 1. docker部署（确保磁盘预留有3G空间）
