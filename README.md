@@ -250,5 +250,6 @@ asyncio.run(main("微信"))
 [一铭API](https://api.wer.plus)
 
 
-### Star
-<img src="https://starchart.cc/hg-ha/ICP_Query.svg">
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=HG-ha/ICP_Query&type=Date)](https://star-history.com/#HG-ha/ICP_Query&Date)
