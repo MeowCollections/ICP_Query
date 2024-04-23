@@ -1,4 +1,4 @@
-# ICP_Query
+# ICP_Query（后续不再维护）
 
 #### 在线测试 [ICP备案查询_yolo8](https://hg-ha.github.io/app/icpb/)
 #### 用于生产环境可以去对接专业打码平台，或者参照代码提示修改ymicp.py，按照small_selice方法返回对应参数即可，自带的打码能力仅供测试
