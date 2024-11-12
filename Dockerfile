@@ -1,6 +1,6 @@
 #基于的基础镜像
 FROM python:3.8.7
-ADD ./icp_Api /icp_Api
+ADD ./* /icp_Api
 WORKDIR /icp_Api
 RUN echo 'deb https://mirrors.tuna.tsinghua.edu.cn/debian/ buster main non-free contrib' > /etc/apt/sources.list \
     && echo 'deb-src https://mirrors.tuna.tsinghua.edu.cn/debian/ buster main non-free contrib' >> /etc/apt/sources.list \
