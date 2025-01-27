@@ -1,6 +1,6 @@
 #### 欢迎注册镜芯API [api2.wer.plus](https://api2.wer.plus) 稳定、高效的API服务
 
-#### 在线测试ICP备案接口 [ICP备案查询](https://api2.wer.plus/doc/14)
+#### 在线测试ICP备案接口 [ICP备案查询](https://www.icp.show)
 
 #### 项目仅限于学习交流逆向与验证码识别技术使用
 ### 关于本项目
